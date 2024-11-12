@@ -2,24 +2,24 @@
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Lynx"
+title = "Find Draggor on the Internet"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [params.author]
-  # name = "Your name here"
-  # headline = "An awesome person"
-  # image = "img/author.jpg"  # path relative to static directory
+  name = "Draggor"
+  headline = "A Demon on the Internet"
+  image = "draggor-icon.jpg"  # path relative to static directory
 
   links = [
-    # { email = "mailto:hello@your_domain.com" },
-    # { link = "https://link-to-some-website.com/" },
+    { email = { href="mailto:draggor@gmail.com", icon="envelope", text="Email (draggor@gmail.com)" } },
+    { link = { href="https://draggor.me", text="https://draggor.me" } },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { bandcamp = "https://username.bandcamp.com" },
-    # { bluesky = "https://bsky.app/profile/username" },
+    { bluesky = { href="https://bsky.app/profile/draggor.me", text="Bluesky (@draggor.me)" } },
     # { codepen = "https://codepen.io/username" },
     # { dev = "https://dev.to/username" },
     # { discord = "https://discord.gg/invitecode" },
@@ -27,7 +27,7 @@ disableKinds = ["taxonomy", "term"]
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    # { github = "https://github.com/username" },
+    { github = { href="https://github.com/draggor", text="GitHub (draggor)" } },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
     # { instagram = "https://instagram.com/username" },
@@ -35,12 +35,12 @@ disableKinds = ["taxonomy", "term"]
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://last.fm/user/username" },
     # { linkedin = "https://linkedin.com/in/username" },
-    # { mastodon = "https://mastodon.instance/@username" },
+    { mastodon = { href="https://meow.social/@draggor", text="Mastodon (@draggor@meow.social)" } },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
     # { patreon = "https://www.patreon.com/username" },
     # { pinterest = "https://pinterest.com/username" },
-    # { reddit = "https://reddit.com/user/username" },
+    { reddit = { href="https://reddit.com/user/draggor", text="Reddit (draggor)" } },
     # { slack = "https://workspace.url/team/userid" },
     # { snapchat = "https://snapchat.com/add/username" },
     # { soundcloud = "https://soundcloud.com/username" },
@@ -48,15 +48,15 @@ disableKinds = ["taxonomy", "term"]
     # { stack-exchange = "https://stackexchange.com/users/userid/username" },
     # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
     # { steam = "https://steamcommunity.com/profiles/userid" },
-    # { telegram = "https://t.me/username" },
+    { telegram = { href="https://t.me/draggor", text="Telegram (@draggor)" } },
     # { threads = "https://threads.com/username" },
     # { tiktok = "https://tiktok.com/@username" },
     # { tumblr = "https://username.tumblr.com" },
-    # { twitch = "https://twitch.tv/username" },
+    { twitch = { href="https://twitch.tv/draggordotme", text="Twitch (DraggorDotMe)" } },
     # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { x = "https://x.com/username" },
-    # { youtube = "https://youtube.com/username" },
+    { youtube = { href="https://youtube.com/@DraggorDotMe", text="YouTube (@DraggorDotMe)" } },
   ]
 
 [module]
