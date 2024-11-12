@@ -4,6 +4,7 @@ defaultContentLanguage = "en"
 
 title = "Find Draggor on the Internet"
 # copyright = "Copy, _right?_ :thinking_face:"
+description = "These are the places I have accounts"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
